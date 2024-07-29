@@ -8,10 +8,10 @@ organizem e monitorem os treinamentos de seus atletas de maneira mais eficaz, el
 
 Objetivos
 
-Facilitar o planejamento e a organização de treinos: Permitir que os treinadores possam criar e gerenciar planos de treinamento personalizados para cada atleta.
-Monitoramento em tempo real: Fornecer dados atualizados sobre o desempenho e progresso dos atletas.
-Comunicação eficiente: Facilitar a comunicação entre treinador e atleta, oferecendo feedback imediato e ajustando os planos conforme necessário.
-Acessibilidade: Desenvolver uma aplicação que funcione tanto online quanto offline, garantindo acesso contínuo às informações.
+-Facilitar o planejamento e a organização de treinos: Permitir que os treinadores possam criar e gerenciar planos de treinamento personalizados para cada atleta.
+-Monitoramento em tempo real: Fornecer dados atualizados sobre o desempenho e progresso dos atletas.
+-Comunicação eficiente: Facilitar a comunicação entre treinador e atleta, oferecendo feedback imediato e ajustando os planos conforme necessário.
+-Acessibilidade: Desenvolver uma aplicação que funcione tanto online quanto offline, garantindo acesso contínuo às informações.
 
 Funcionalidades Principais
 
