@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <h1>iRun Assessoria Esportiva</h1>
+    <form method="POST" action="{{ url_for('register.register_user') }}">
+        <input type="text" id="nome" name="nome" placeholder="Nome Completo" required><br>
+        <input type="text" id="login" name="login" placeholder="Nome para login" required><br>
+        <input type="password" id="senha" name="senha" placeholder="Senha" required><br>
+        <input type="number" id="idade" name="idade" placeholder="Idade" required><br>
+        <input type="date" id="data_nascimento" name="data_nascimento" placeholder="Data de Nascimento" required><br>
+        <input type="number" id="cpf" name="cpf" placeholder="CPF" required><br>
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo" required>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+        </select><br>
+        <input type="tel" id="telefone" name="telefone" placeholder="DDD + 9 + numero " required><br>
+        <input type="email" id="email" name="email" placeholder="e-mail" required><br>
+        <input type="number" id="cep" name="cep" placeholder="CEP (opcional)"><br>
+        <button type="submit">Registrar</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<html lang="pt-br"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iRun AE</title>
+
+    <!-- Open Graph Protocol OGP -->
+    <meta property="og:title" content="Menu com Submenu">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="Seu Site">
+    <meta property="og:image" content="URL de imagem para ser exibida no OG">
+    <meta property="og:description" content="Descrição de website">
+    <!-- Para editar, mude o que está dentro das "" na parte de 'content=' -->
+
+    <style>
+        .folder-collection {
+            margin-bottom: 20px;
+        }
+        .folder-collection a {
+            display: block;
+            font-weight: bold;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        .subnav {
+            display: none;
+            padding-left: 20px;
+        }
+        .subnav a {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+
+<!-- SUMARIO PARA VOCÊ MEXER NO CÓD.
+
+Por padrão, o marcador # se refere ao início da página. Ex.: <li><a href="#">Item 1.1</a></li>
+Caso você mude o '#' para uma URL valida, ou algum arquivo html da propria pasta, você será redirecionado
+para a página em que está sendo referenciada no "<a href= 'URL'>"
+
+-->
+
+
+<style type="text/css" id="operaUserStyle"></style></head>
+<body>
+    <ul>
+        <!-- Pasta 1 -->
+        <li class="folder-collection">
+            <a onclick="toggleSubmenu('subnav1')">AVISOS</a>
+            <div class="subnav" id="subnav1">
+                <ul>
+                    <li><a href="Avisos/corridas.html">Corridas</a></li>
+                    <li><a href="Avisos/eventos.html">Eventos</a></li>
+                    <li><a href="Avisos/aniversariante.html">Aniversariante do Mês</a></li>
+                </ul>
+            </div>
+        </li>
+
+        <!-- Pasta 2 -->
+        <li class="folder-collection">
+            <a onclick="toggleSubmenu('subnav2')">TREINOS</a>
+            <div class="subnav" id="subnav2">
+                <ul>
+                    <li><a href="treino.html">Meu Treino</a></li>
+                    <li><a href="Treinos/revisao-treino.html">Revisão de Treino</a></li>
+                    <li><a href="Treinos/aulas-coletivas.html">Aulas Coletivas</a></li>
+                    <li><a href="Treinos/treino-particular.html">Treino Particular</a></li>
+                </ul>
+            </div>
+        </li>
+
+        <!-- Pasta 3 -->
+        <li class="folder-collection">
+            <a onclick="toggleSubmenu('subnav3')">LOJA</a>
+            <div class="subnav" id="subnav3">
+                <ul>
+                    <li><a href="Loja/planos.html">Planos</a></li>
+                    <li><a href="Loja/roupas-acessorios.html">Roupas e Acessórios</a></li>
+                    <li><a href="Loja/promocoes.html">Promoções</a></li>
+                    <li><a href="Loja/parcerias.html">Parcerias</a></li>
+                </ul>
+            </div>
+        </li>
+
+
+    <!-- Os submenus são inicialmente ocultos e são exibidos quando a pasta principal é clicada utilizando esta função abaixo -->
+    <script>
+        function toggleSubmenu(id) {
+            var submenu = document.getElementById(id);
+            if (submenu.style.display === "block") {
+                submenu.style.display = "none";
+            } else {
+                submenu.style.display = "block";
+            }
+        }
+    </script>
+
+
+</body></html>

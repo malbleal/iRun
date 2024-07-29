@@ -1,0 +1,89 @@
+/* styles.css */
+
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+}
+.form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffcc00;
+    color: #000;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Estilos específicos para o menu */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos específicos para a página menu.html */
+.menu-header {
+    background-color: #ffcc00;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.menu-header h1 {
+    color: #000;
+}
+
+/* Estilos específicos para a página register.html */
+.register-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.register-form input[type="text"],
+.register-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.register-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffcc00;
+    color: #000;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.register-form button:hover {
+    background-color: #ffc200;
+}
+
+/* Adicione outros estilos conforme necessário */

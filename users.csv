@@ -1,0 +1,2 @@
+nome,login,senha,idade,data_nascimento,cpf,sexo,telefone,email,cep,tipo,primeiro_acesso
+Mauricio Leal,ML,$2b$12$0b/OM3Z2GYMoGXVeoBEaZO8gkA37fh8UTO0s6Wwj6/0ppLPNAzFyG,26,1998-03-16,14407347716,masculino,21967249498,malblealml@gmail.com,20220660,normal_user,False
